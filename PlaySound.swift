@@ -7,8 +7,6 @@
 import Foundation
 import AVFoundation
 
-// MARK: - AUDIO PLAYER
-
 var audioPlayer: AVAudioPlayer?
 
 func playSound(sound: String, type: String) {
