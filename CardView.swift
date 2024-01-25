@@ -7,7 +7,6 @@
 import SwiftUI
 
 struct CardView: View {
-  // MARK: - PROPERTIES
   
   var card: Card
   
@@ -17,8 +16,6 @@ struct CardView: View {
   @State private var showAlert: Bool = false
   
   var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
-  
-  // MARK: - CARD
   
   var body: some View {
     ZStack {
@@ -83,8 +80,6 @@ struct CardView: View {
     }
   }
 }
-
-// MARK: - PREVIEW
 
 struct CardView_Previews: PreviewProvider {
   static var previews: some View {
