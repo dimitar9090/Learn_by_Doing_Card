@@ -6,7 +6,6 @@
 
 import SwiftUI
 
-// MARK: - CARD MODEL
 
 struct Card: Identifiable {
   var id = UUID()
